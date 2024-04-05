@@ -1,0 +1,60 @@
+.main {
+  max-width: 79.75rem;
+  margin: 0 auto;
+}
+
+.h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.sectionDalyImg {
+  width: 100%;
+  max-height: 24rem;
+  height: 24rem;
+  position: relative;
+}
+
+.dalyImg {
+  max-height: 24rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: all 0.2s;
+}
+
+.dalyImg:hover {
+  opacity: 1;
+}
+
+.containerGameTitle {
+  z-index: 20;
+  position: absolute;
+  bottom: 0;
+  left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.spanTitleGame {
+  color: #f3f4f6;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.h4 {
+  margin: 1rem 0;
+  color: #18181b;
+}
+
+.sectionGames {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 285px);
+}

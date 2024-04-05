@@ -1,0 +1,17 @@
+.main {
+  max-width: 79.75rem;
+  margin: 0 auto;
+}
+
+.sectionGamesFounded {
+  width: 100%;
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, 285px);
+}
+
+.h1 {
+  margin: 1rem 0;
+}

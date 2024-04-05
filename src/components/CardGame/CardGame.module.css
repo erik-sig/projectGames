@@ -1,0 +1,47 @@
+.cardLink {
+  text-decoration: none;
+}
+
+.imgContainer {
+  width: 100%;
+  position: relative;
+  height: 18.375rem;
+}
+
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #e2e8f0;
+}
+
+.gameImg {
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 8px;
+}
+
+.gameImg:hover {
+  transform: scale(1.05);
+}
+
+.gameInfo {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  color: #000;
+}
+
+.gameInfo span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

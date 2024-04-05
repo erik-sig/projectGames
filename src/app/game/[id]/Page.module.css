@@ -1,0 +1,57 @@
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 24.0625rem;
+}
+
+.gameImg {
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.infoContainer {
+  padding: 1rem 0;
+  max-width: 79.75rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.containerInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.spanContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.spanContainer h3 {
+  margin-bottom: 1rem;
+}
+
+.spanInfos {
+  padding: 0.3rem;
+  border-radius: 8px;
+  background-color: #e2e8f0;
+}
+
+.releaseInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sortedGameContainer {
+  width: 100%;
+}

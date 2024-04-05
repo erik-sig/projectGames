@@ -3,7 +3,6 @@ import { GameProps } from "@/utils/types/game";
 
 import styles from "./Page.module.css";
 import Input from "@/components/Input/Input";
-import { Span } from "next/dist/trace";
 
 async function getData({ title }: { title: string }) {
   try {
